@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { db } from "../firebase";
 import { collection, getDocs, deleteDoc, doc, query, where } from "firebase/firestore";
 
-const ADMIN_PW = "admin1234";
+const ADMIN_PW = "admin8848";
 
 function downloadCSV(filename, headers, rows) {
   const bom = "﻿";
